@@ -9,7 +9,7 @@ from matplotlib.lines import Line2D
 def plot_roll_distribution(series, title="Roll Distribution", dice_count=None):
     """
     Plots a histogram of dice rolls using Seaborn for improved visuals.
-    
+
     Parameters:
         series (pd.Series): The input data (e.g., dice rolls)
         title (str): Title for the plot
