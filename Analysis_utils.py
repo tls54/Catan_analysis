@@ -6,6 +6,7 @@ from matplotlib.ticker import MaxNLocator
 from matplotlib.lines import Line2D
 
 
+
 def plot_roll_distribution(series, title="Roll Distribution", dice_count=None):
     """
     Plots a histogram of dice rolls using Seaborn for improved visuals.
